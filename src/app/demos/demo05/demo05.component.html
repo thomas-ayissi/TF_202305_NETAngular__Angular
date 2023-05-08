@@ -1,2 +1,32 @@
 <h2>Demo 05 - La base du routing</h2>
 
+<p>
+    Utilisation de l'attribut routerLink plutôt que href pour éviter le rafraîchissement de la page.
+</p>
+
+<h3>Propriété d'une route</h3>
+
+<h4>path :</h4>
+<p>
+    Cette propriété définit le chemin ou l'URL de la route. Il peut s'agir d'une chaine de caractère ou d'une expression régulière.
+</p>
+
+<h4>component :</h4>
+<p>
+    Cette propriété définit le composant associé à la route. Il s'agit du composant qui sera chargé et affiché lorsque la route sera activée.
+</p>
+
+<h4>children :</h4>
+<p>
+    Cette propriété permet de définir les routes enfants (ou sous-routes) qui sont associées à la route courante. Les routes enfants sont utiles pour créer des vues hiérarchiques ou pour ajouter des fonctionnalités à une vue existante.
+</p>
+
+<h4>pathMatch :</h4>
+<p>
+    Cette propriété définit comment la route doit être appariée.
+    Elle peut prendre la valeur "full" ou "prefix".
+    Si elle est définie à "full", la route ne sera activée que si l'URL correspond exactement au chemin de la route.
+    Si elle est définie à "prefix", la route sera activée si l'url commence par le chemin de la route.
+</p>
+
+<h4>redirectTo :</h4>
