@@ -8,3 +8,19 @@ import { Component } from '@angular/core';
 export class Exo03Component {
 
 }
+
+function myTimer() {
+  console.log()
+}
+setTimeout(myTimer, 1000)
+
+
+function stopTimer() {
+  myTimer()
+}
+stopTimer(myTimer)
+
+
+function setTimer() {
+
+}
