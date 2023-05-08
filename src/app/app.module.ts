@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 
 import { Demo01Component } from './demos/demo01/demo01.component';
 import { Exo01Component } from './exercices/exo01/exo01.component';
+import { Demo02Component } from './demos/demo02/demo02.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import { Exo01Component } from './exercices/exo01/exo01.component';
     HomeComponent,
     Demo01Component,
     Exo01Component,
+    Demo02Component,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
