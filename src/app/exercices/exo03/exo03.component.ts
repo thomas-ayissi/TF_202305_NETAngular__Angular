@@ -7,4 +7,25 @@ import { Component } from '@angular/core';
 })
 export class Exo03Component {
 
+  count: number = 0;
+  timer: any;
+
+  start (): void {
+    if (this.timer) return;
+    this.timer = setInterval(() => { this.count++; }, 1000);
+  }
+
+  stop (): void {
+    clearInterval(this.timer);
+    this.timer = null;
+  }
+
+  reset (): void {
+    this.count = 0;
+    this.stop();
+  }
+
+
+
+
 }
