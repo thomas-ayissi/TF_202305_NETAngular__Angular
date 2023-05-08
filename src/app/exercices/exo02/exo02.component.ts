@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class Exo02Component {
 
+  nom: string = '';
+  prenom: string = '';
+  email: string = '';
+  dateNaissance!: Date;
+  genre: string = '';
+  langues: string = '';
+  image?: string;
+
 }
