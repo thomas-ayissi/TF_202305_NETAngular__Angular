@@ -1,0 +1,30 @@
+<h2>Demo 03 - Event Binding</h2>
+
+<p>Permet de lier un événement Javascript à une méthode définie dans le TypeScript</p>
+
+<h3>Click Event (Clique sur les boutons)</h3>
+<p>La valeur du nombre est : {{ nombre1 }}</p>
+<button (click)="reset1()">Reset</button>
+<button (click)="decrease1()">-</button>
+<button (click)="increase1()">+</button>
+
+<h3>Mouse Event (Survollez les boutons)</h3>
+<p>La valeur du nombre est : {{ nombre1 }}</p>
+<button (mouseover)="reset1()">Reset</button>
+<button (mouseover)="decrease1()">-</button>
+<button (mouseover)="increase1()">+</button>
+
+<h3>Liste des Events</h3>
+<ul>
+    <li>click = au clic de la souris</li>
+    <li>dblclick = au double clic de la souris</li>
+    <li>submit = à l'envoi d'un formulaire</li>
+    <li>blur = perte de focus sur un élément</li>
+    <li>focus = au focus sur un élément</li>
+    <li>scroll = au scroll de l'élément</li>
+    <li>cut = lors d'un CTRL + X</li>
+    <li>copy = lors d'un CTRL + C</li>
+    <li>paste = lors d'un CTRL + V</li>
+    <li>keyup = lors du relachement d'une touche</li>
+    <li>keydown = lors de l'appui d'une touche</li>
+</ul>
