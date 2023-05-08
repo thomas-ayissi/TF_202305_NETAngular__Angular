@@ -11,4 +11,9 @@ export class Demo02Component {
   maVariable2: number = 0;
   maVariable3: boolean = false;
 
+  changeValue (event: any): void {
+      console.log(event.target.value);
+      this.maVariable1 = event.target.value;
+  }
+
 }
