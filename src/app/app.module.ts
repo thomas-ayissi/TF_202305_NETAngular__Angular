@@ -11,6 +11,7 @@ import { Exo01Component } from './exercices/exo01/exo01.component';
 import { Demo02Component } from './demos/demo02/demo02.component';
 import { FormsModule } from '@angular/forms';
 import { Exo02Component } from './exercices/exo02/exo02.component';
+import { Exercice2Component } from './ExercicesThomas/exercice2/exercice2.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { Exo02Component } from './exercices/exo02/exo02.component';
     Exo01Component,
     Demo02Component,
     Exo02Component,
+    Exercice2Component,
   ],
   imports: [
     BrowserModule,
