@@ -1,0 +1,38 @@
+<p>exercice2 works!</p>
+
+
+
+<div id="left-box">
+     <h1>{{ genre === 'homme' ? 'M.' : 'Mme' }} {{ nom }} {{ prenom }}</h1>
+
+     <p>Contactez moi à {{ email }}</p>
+
+     <p>Né le {{ dateNaissance.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) }}</p>
+
+     <img src="{{ image }}" alt="photo de profil" width="250">
+
+     <p>Langues parlées :</p>
+     <ul>
+        <li>{{ langues[0] }}</li>
+        <li>{{ langues[1] }}</li>
+     </ul>
+
+  </div>
+
+
+<div id="right-box">
+  <h1>{{ genre === 'homme' ? 'M.' : 'Mme' }} {{ nom }} {{ prenom }}</h1>
+
+  <p>Contactez moi à {{ email }}</p>
+
+  <p>Né le {{ dateNaissance.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) }}</p>
+
+  <img src="{{ image }}" alt="photo de profil" width="250">
+
+  <p>Langues parlées :</p>
+  <ul>
+    <li>{{ langues[0] }}</li>
+    <li>{{ langues[1] }}</li>
+  </ul>
+
+</div>
