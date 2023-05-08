@@ -1,0 +1,18 @@
+<h2>Demo 04 - Attribute Binding</h2>
+
+<p>Permet de lier un attribut HTML avec une propriété</p>
+<p>Tous les attributs HTML sont touchables</p>
+
+<input type="range" [min]="min" [max]="max" [(ngModel)]="value"> 
+[{{ min }} - {{ max }}] ({{ value }})
+
+<p>
+    <a [href]="url" target="_blank">Vers google</a>
+</p>
+
+
+<input type="text" [(ngModel)]="value">
+<button [disabled]="value > 5">Clique sur moi</button>
+
+<input type="checkbox" [(ngModel)]="bool">
+<button [disabled]="!bool">Clique ici</button>
