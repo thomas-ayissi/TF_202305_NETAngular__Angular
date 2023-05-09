@@ -18,6 +18,7 @@ import { Demo05Component } from './demos/demo05/demo05.component';
 import { DemosComponent } from './demos/demos.component';
 import { FourofourComponent } from './shared/components/fourofour/fourofour.component';
 import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { Exo05Component } from './exercices/exo05/exo05.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
     DemosComponent,
     FourofourComponent,
     NavbarComponent,
+    Exo05Component,
   ],
   imports: [
     BrowserModule,
