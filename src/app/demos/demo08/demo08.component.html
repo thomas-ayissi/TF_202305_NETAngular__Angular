@@ -1,0 +1,21 @@
+<h2>Demo 08 - Les directives de composants</h2>
+
+<h3>NgStyle :</h3>
+
+<p [ngStyle]="currentStyle">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione modi iste laborum, placeat quam nobis magnam
+    maiores, quasi dolores omnis vitae ullam saepe ipsam culpa laudantium fugit sunt inventore! Dolor.
+</p>
+
+<button (click)="switchItalic()">Italic</button>
+<button (click)="switchBold()">Bold</button>
+<button (click)="switchSize()">Size</button>
+
+<h3>NgClass :</h3>
+
+<p [ngClass]="{ maClasse: isActive }">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore id dicta quaerat voluptas fuga nostrum ipsam ad
+    incidunt amet explicabo. Sit corporis saepe eaque soluta nulla id vitae voluptas voluptatem!
+</p>
+
+<button (click)="switchClass()">Appliquer la classe</button>

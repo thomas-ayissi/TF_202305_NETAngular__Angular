@@ -29,6 +29,8 @@ import { Exo07Component } from './exercices/exo07/exo07.component';
 import { ToFahrenheitPipe } from './exercices/exo07/to-fahrenheit.pipe';
 import { ToCelsiusPipe } from './exercices/exo07/to-celsius.pipe';
 import { ConvertisseurDegrePipe } from './exercices/exo07/convertisseur-degre.pipe';
+import { Demo08Component } from './demos/demo08/demo08.component';
+import { Exo08Component } from './exercices/exo08/exo08.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +58,8 @@ import { ConvertisseurDegrePipe } from './exercices/exo07/convertisseur-degre.pi
     ToFahrenheitPipe,
     ToCelsiusPipe,
     ConvertisseurDegrePipe,
+    Demo08Component,
+    Exo08Component,
   ],
   imports: [
     BrowserModule,
