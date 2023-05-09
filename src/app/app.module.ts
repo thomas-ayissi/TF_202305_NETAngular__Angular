@@ -26,6 +26,9 @@ import { SecondsToDHMSPipe } from './demos/demo07/seconds-to-dhms.pipe';
 import { GetValuePipe } from './demos/demo07/get-value.pipe';
 import { SumPipe } from './demos/demo07/sum.pipe';
 import { Exo07Component } from './exercices/exo07/exo07.component';
+import { ToFahrenheitPipe } from './exercices/exo07/to-fahrenheit.pipe';
+import { ToCelsiusPipe } from './exercices/exo07/to-celsius.pipe';
+import { ConvertisseurDegrePipe } from './exercices/exo07/convertisseur-degre.pipe';
 
 @NgModule({
   declarations: [
@@ -50,6 +53,9 @@ import { Exo07Component } from './exercices/exo07/exo07.component';
     GetValuePipe,
     SumPipe,
     Exo07Component,
+    ToFahrenheitPipe,
+    ToCelsiusPipe,
+    ConvertisseurDegrePipe,
   ],
   imports: [
     BrowserModule,

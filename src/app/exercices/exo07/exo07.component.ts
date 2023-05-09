@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class Exo07Component {
 
+  temperature1: number = 0;
+  temperature2: number = 0;
+  temperature3: number = 0;
+
+  unite: string = 'celsius';
+
 }
