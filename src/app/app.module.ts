@@ -24,6 +24,8 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { Demo07Component } from './demos/demo07/demo07.component';
 import { SecondsToDHMSPipe } from './demos/demo07/seconds-to-dhms.pipe';
 import { GetValuePipe } from './demos/demo07/get-value.pipe';
+import { SumPipe } from './demos/demo07/sum.pipe';
+import { Exo07Component } from './exercices/exo07/exo07.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +48,8 @@ import { GetValuePipe } from './demos/demo07/get-value.pipe';
     Demo07Component,
     SecondsToDHMSPipe,
     GetValuePipe,
+    SumPipe,
+    Exo07Component,
   ],
   imports: [
     BrowserModule,
