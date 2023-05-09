@@ -9,6 +9,10 @@ import { Demo03Component } from './demos/demo03/demo03.component';
 import { Demo04Component } from './demos/demo04/demo04.component';
 import { Demo05Component } from './demos/demo05/demo05.component';
 
+import { Exo01Component } from './exercices/exo01/exo01.component';
+import { Demo04Component } from './demos/demo04/demo04.component';
+import { Demo05Component } from './demos/demo05/demo05.component';
+
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
 
