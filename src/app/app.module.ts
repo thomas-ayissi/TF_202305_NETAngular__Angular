@@ -21,6 +21,9 @@ import { Exo03Component } from './exercices/exo03/exo03.component';
 import { Exo05Component } from './exercices/exo05/exo05.component';
 import { FourofourComponent } from './shared/components/fourofour/fourofour.component';
 import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { Demo07Component } from './demos/demo07/demo07.component';
+import { SecondsToDHMSPipe } from './demos/demo07/seconds-to-dhms.pipe';
+import { GetValuePipe } from './demos/demo07/get-value.pipe';
 
 @NgModule({
   declarations: [
@@ -40,6 +43,9 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
     Exo05Component,
     ExercicesComponent,
     Demo06Component,
+    Demo07Component,
+    SecondsToDHMSPipe,
+    GetValuePipe,
   ],
   imports: [
     BrowserModule,
