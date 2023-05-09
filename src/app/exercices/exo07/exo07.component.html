@@ -13,3 +13,20 @@
 </p>
 
 <hr>
+
+<p><a href="https://angular.io/api/common/DecimalPipe" target="_blank">DecimalPipe</a></p>
+
+
+<p>Avant : {{ temperature1 }}</p>
+<p>Avant : {{ temperature2 }}</p>
+
+<p>Avant : {{ temperature1 }}</p>
+<p>Avant : {{ temperature2 }}</p>
+
+<p>Fahrenheit to Celsius</p>
+<p>Fahrenheit : <input type="text" [(ngModel)]="Fahrenheit" /></p>
+<p>{{  Fahrenheit  | temperatureConverter : 'C'  }} C</p>
+<br>
+<p>Celcius to Fahrenheit</p>
+<p>Celcius : <input type="text" [(ngModel)]="Celsius" /></p>
+<p>{{ Celsius | temperatureConverter: 'F'  }} F</p>
